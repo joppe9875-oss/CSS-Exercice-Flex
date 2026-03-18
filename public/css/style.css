@@ -1,0 +1,10 @@
+
+div{
+    background-color:red;
+    width: 150px;
+    height: 100px;
+    display: inline-block;
+    align-content: center;
+    text-align:center;
+    margin: 3px;
+}
