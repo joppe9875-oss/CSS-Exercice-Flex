@@ -1,10 +1,35 @@
 
-div{
+
+.flex1 {
+    display:flex;
+}
+
+.flex1 > *{
     background-color:red;
-    width: 150px;
-    height: 100px;
-    display: inline-block;
-    align-content: center;
+    flex-direction:row;
+    width: 20%;
+    height: 150px;
+    margin:8px;
     text-align:center;
-    margin: 3px;
+    font-size: 25px;
+    align-content:center;
+}
+
+.flex2{
+    display:flex;
+}
+
+.flex2 > *{
+    background-color:red;
+    flex-direction:row;    
+    width: 20%;
+    height: 150px;
+    margin:8px;
+    text-align:center;
+    font-size: 25px;
+    align-content:center;
+}
+
+.flex2 > .wider{
+    width: 40%;
 }
