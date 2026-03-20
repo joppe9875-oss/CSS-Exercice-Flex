@@ -1,5 +1,12 @@
+body{
+    display:block;
+}
 
-
+div{
+    text-align:center;
+    align-content:center;
+    font-size: 25px;     
+}
 .flex1 {
     display:flex;
 }
@@ -7,12 +14,10 @@
 .flex1 > *{
     background-color:red;
     flex-direction:row;
-    width: 20%;
+    flex:1;
     height: 150px;
     margin:8px;
-    text-align:center;
     font-size: 25px;
-    align-content:center;
 }
 
 .flex2{
@@ -22,16 +27,15 @@
 .flex2 > div{
     background-color:red;
     flex-direction:row;    
-    width: 20%;
+    flex:1;
     height: 150px;
     margin:8px;
     text-align:center;
     font-size: 25px;
-    align-content:center;
 }
 
 .flex2 > .wider{
-    width: 40%;
+    flex:2;
 }
 
 .flex3{
@@ -45,7 +49,7 @@
     align-items:center;
 }
 
-.flex3 > .container_bg > div{
+.container_bg > div{
     display: flex;
     background-color:#FF4500;
     flex-direction:row;    
@@ -54,8 +58,90 @@
     padding: 30px 40px;
     margin:5px;
     text-align:left;
-    font-size: 15px;
-    align-items:baseline;
-    align-content:center;    
+    font-size: 15px;    
+}
+
+
+.flex4_1 > div{
+    display:block;
+    background-color:#D2691E;    
+    flex:1;
+    height:120px;
+    margin:5px;    
+} 
+
+.flex4_2{
+    display:flex;
+}
+
+.flex4_2 > div{
+    flex-direction:row;    
+    background-color:#D2691E;    
+    flex:1;
+    height:120px;
+    margin:5px;
+}
+
+.flex4_3{
+    display:flex;
+}
+
+.flex4_3 > div{
+    flex-direction:row;    
+    background-color:#D2691E;    
+    flex:1;
+    height:120px;
+    margin:5px;
+}
+
+.flex4_12{
+    display:flex;
+}
+
+.flex4_12 > div{
+    flex-direction:row;    
+    background-color:#D2691E;    
+    flex:1;
+    height:120px;
+    margin:5px;
+}
+
+.flex5{
+    max-width: 1600px;
+    height:550px;
+    display:flex;
+    flex-direction:column;
+    gap:10px;
+    margin: 0;
+}
+
+.flex5_row{
+    display:flex;
+    flex:1;
+    gap:10px;    
+}
+
+.box{
+    display:flex;
+    flex:1;
+    background-color:red;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    font-size:25px;
+}
+
+.col{
+    display:flex;
+    flex:1;
+    flex-direction:column;
+    gap:10px;
+}
+
+.row{
+    display:flex;
+    flex: 1;
+    flex-direction:row;
+    gap:10px;
 }
 
