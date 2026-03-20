@@ -19,7 +19,7 @@
     display:flex;
 }
 
-.flex2 > *{
+.flex2 > div{
     background-color:red;
     flex-direction:row;    
     width: 20%;
@@ -33,3 +33,29 @@
 .flex2 > .wider{
     width: 40%;
 }
+
+.flex3{
+    display:flex;
+}
+
+.container_bg{
+    background-color:#DEB887;
+    display:flex;
+    height: 700px;
+    align-items:center;
+}
+
+.flex3 > .container_bg > div{
+    display: flex;
+    background-color:#FF4500;
+    flex-direction:row;    
+    width: auto;
+    height: 100px;
+    padding: 30px 40px;
+    margin:5px;
+    text-align:left;
+    font-size: 15px;
+    align-items:baseline;
+    align-content:center;    
+}
+
