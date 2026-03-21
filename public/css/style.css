@@ -151,6 +151,7 @@ div{
     height:900px;
     flex-direction:column;
     gap:10px;
+    margin: 10px auto;
 
 
 }
@@ -221,4 +222,45 @@ div{
     gap:10px;
     flex:1;
     border-radius:10px;
+}
+
+.flex7{
+    display:flex;
+    flex-direction: column;
+    max-width:1600px;
+    height:600px;
+    flex:1;
+    gap:5px;
+    margin: 10px auto;
+}
+
+.flex7_row{
+    display:flex;
+    flex-direction:row;
+    min-height:200px;
+    gap:5px;
+}
+
+.flex7_black{
+    display:flex;
+    background-color:black;
+    flex:1;
+    gap:5px;
+    border: 1px solid black;
+}
+
+.flex7_yellow{
+    display:flex;
+    background-color:yellow;
+    flex:1;
+    gap:5px;
+    border: 1px solid black;
+}
+
+.flex7_red{
+    display:flex;
+    background-color:red;
+    flex:1;
+    gap:5px;
+    border: 1px solid black;
 }
