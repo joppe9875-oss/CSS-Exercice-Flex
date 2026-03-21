@@ -241,26 +241,21 @@ div{
     gap:5px;
 }
 
-.flex7_black{
+.flex7_row > *{
     display:flex;
-    background-color:black;
+    border: 1px solid black;
     flex:1;
     gap:5px;
-    border: 1px solid black;
+}
+
+.flex7_black{
+    background-color:black;
 }
 
 .flex7_yellow{
-    display:flex;
     background-color:yellow;
-    flex:1;
-    gap:5px;
-    border: 1px solid black;
 }
 
 .flex7_red{
-    display:flex;
     background-color:red;
-    flex:1;
-    gap:5px;
-    border: 1px solid black;
 }
